@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Deployment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Website Deployment Project</h1>
+    <p>Static Website on Netlify & Dynamic Website on Heroku/AWS</p>
+  </header>
+
+  <section class="container">
+
+    <div class="card">
+      <h2>Static Website</h2>
+      <p>
+        This static website can be deployed on Netlify easily using drag-and-drop
+        or GitHub integration.
+      </p>
+
+      <button onclick="showMessage('Static Website Ready for Netlify Deployment')">
+        Deploy Static Site
+      </button>
+    </div>
+
+    <div class="card">
+      <h2>Dynamic Website</h2>
+      <p>
+        Dynamic applications built using Node.js or Express.js can be deployed
+        on Heroku or AWS cloud platform.
+      </p>
+
+      <button onclick="showMessage('Dynamic Website Ready for Heroku/AWS Deployment')">
+        Deploy Dynamic Site
+      </button>
+    </div>
+
+  </section>
+
+  <script>
+    function showMessage(message) {
+      alert(message);
+    }
+  </script>
+
+</body>
+</html>
